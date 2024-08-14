@@ -66,18 +66,16 @@ Next, you will build out the form within the `<body>` tag. This form will includ
 
 2. **Form Tag**:
    ```html
-   <form action="/submit" method="post">
+   <form></form>
    ```
-   - The `<form>` element is used to collect user input. 
-   - The `action` attribute defines where the form data should be sent when it is submitted.
-   - The `method="post"` indicates that the form data should be sent to the server using the HTTP POST method.
+   - The `<form>` element is used to collect user input.
 
 3. **Full Name Input**:
    ```html
    <label for="name">Full Name:</label>
    <input type="text" id="name" name="name" required minlength="2" placeholder="John Doe">
    ```
-   - The `<label>` element provides a label for the input field, improving accessibility.
+   - The `<label>` element provides a label for the input field, improving accessibility. The `<label>` and `<input>` elements should be placed inside the previous `<form>` tags
    - The `for="name"` attribute connects the label to the input field with the id `name`.
    - `<input type="text">` creates a single-line text input.
    - The `required` attribute ensures the field must be filled out before submission.
@@ -191,10 +189,3 @@ After completing the form, open the `index.html` file in a web browser to test t
 ## Conclusion
 
 By completing this assignment, you should have gained an understanding of how to create a simple HTML form with various input types and built-in validation. This knowledge is fundamental for collecting user data in web applications.
-
-
-## Conclusion
-
-By completing this assignment, you should have gained an understanding of how to create a simple HTML form with various input types and built-in validation. This knowledge is fundamental for collecting user data in web applications.
-
-© All rights reserved to ThriveDX
