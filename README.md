@@ -196,3 +196,5 @@ By completing this assignment, you should have gained an understanding of how to
 ## Conclusion
 
 By completing this assignment, you should have gained an understanding of how to create a simple HTML form with various input types and built-in validation. This knowledge is fundamental for collecting user data in web applications.
+
+© All rights reserved to ThriveDX
