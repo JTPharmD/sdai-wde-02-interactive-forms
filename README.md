@@ -40,8 +40,6 @@ Now that you have your files set up, let's add the basic HTML5 boilerplate code.
 </head>
 <body>
 
-  <!-- Form content goes here -->
-
 </body>
 </html>
 ```
@@ -62,14 +60,14 @@ Let's add a form header which typically includes a title that informs users of t
 - The `<h1>` tag defines the main heading of the webpage or in this case a form.
 - This is the largest and most important heading tag, indicating the primary purpose of the page, which in this case is "Apply Now."
 
-## 4. Add our `form` section tags
-Now we need form section tags to wraps the form code, grouping all related elements.
+## 4. Add our Form section tags
+Now, we need to use form section tags to wrap the form code, effectively grouping all the related form elements together
 
- - [ ] Inside the `<body></body>` tags after the `h1` add the following code.
+ - [ ] Inside the `<body></body>` tags after the `h1` tag add the following code.
 
    ```html
    <form>
-   
+   <!-- Form content goes here -->
    </form>
    ```
 
@@ -98,7 +96,7 @@ We will now prompt the user to enter their full name using an input field.
 ## 4. Email Address Input Field
 We will now prompt the user to enter their email address and validate that a valid email address has been provided.
 
- - [ ] Add the following code after the `<br>` tag from the user's name section.
+ - [ ] Add the following code after the `<br>` tags from the user's name section.
 
    ```html
    <label for="email">Email Address:</label>
@@ -113,7 +111,7 @@ We will now prompt the user to enter their email address and validate that a val
 ## 5. Age Input Field
 Let's collect the user's age using an input field and set a minimum and maximum required number entry.
 
- - [ ] Add the following code after the `<br>` tag from the user's email section.
+ - [ ] Add the following code after the `<br>` tags from the user's email section.
 
    ```html
    <label for="age">Age (18-60):</label>
@@ -128,7 +126,7 @@ Let's collect the user's age using an input field and set a minimum and maximum 
 ## 6. Resume Upload Option:
 Let's enable users to submit their resumes through our form and validate that it is a PDF file.
 
- - [ ] Add the following code after the `<br>` tag from the age section.
+ - [ ] Add the following code after the `<br>` tags from the age section.
 
    ```html
    <label for="resume">Upload Resume (PDF):</label>
@@ -144,7 +142,7 @@ Let's enable users to submit their resumes through our form and validate that it
 ## 7. Short Bio Entry
 Let's give users the option to include a brief bio in our form.
 
- - [ ] Add the following code after the `<br>` tag from the resume section.
+ - [ ] Add the following code after the `<br>` tags from the resume section.
 
    ```html
    <label for="bio">Short Bio:</label>
@@ -160,7 +158,7 @@ Let's give users the option to include a brief bio in our form.
 ## 8. Submit Button
 Here, we'll add a submit button to send the form's data.
 
- - [ ] Add the following code after the `<br>` tag from the user's bio section.
+ - [ ] Add the following code after the `<br>` tags from the user's bio section.
 
    ```html
    <button type="submit">Submit Application</button>
@@ -179,7 +177,7 @@ After completing the form, open the `index.html` file in a web browser to test t
 2. Try entering an incorrectly formatted email address or an age outside of the specified range (18-60). Observe what happens and how the browser enforces these validations.
 3. Ensure all validations work as expected, such as the correct format for email and the age constraints.
 
-## Conclusion
+# Conclusion 📄
 
 By completing this assignment, you should have gained an understanding of how to create a simple HTML form with various input types and built-in validation. This knowledge is fundamental for collecting user data in web applications.
 
